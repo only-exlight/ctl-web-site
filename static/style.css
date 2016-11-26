@@ -1,0 +1,273 @@
+
+body {
+    background: /*url(http://weblabfon.com/_ld/3/360_07.png);*/ url(http://vignette4.wikia.nocookie.net/warriors-cats/images/6/61/%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0.jpg/revision/latest?cb=20150922124439&path-prefix=ru);
+    background-attachment: fixed;
+    background-size: 120% 120%;
+}
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background: #fafafa;
+    box-shadow: 0 0 5px #668fff;
+    font-family: sans-serif;
+    position: fixed;
+}
+
+#menu  li {
+    list-style-type: none;
+    font-size: 18px;
+    background: rgba(250, 250, 250, 0.53);
+    display: none;
+}
+
+#menu  li ul {
+    padding: 0 20px;
+}
+
+#menu li ul:hover {
+    background: rgba(250, 250, 250, 0.81);
+    transition: background .5s;
+}
+
+#name {
+    width: 250px;
+    line-height: 57px;
+    font-size: 24px;
+    margin: 0px 30px;
+    color: #668fff;
+    text-shadow: 0 0 1px #fff;
+    float: left;
+}
+
+#name:hover li {
+    display: block;
+}
+
+#current {
+    float: left;
+    line-height: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #668fff;
+}
+
+
+/**/
+
+.screen {
+    
+}
+
+.line {
+    width: 0%;
+    height: 3px;
+    background: #668fff;
+}
+#name:hover .line {
+    width: 100%;
+    transition: width 1s;
+}
+
+#navigation {
+    width: 100%;
+    height: 150px;
+    background: #fafafa;
+}
+
+.item_sl {
+    width: 25%;
+    height: 100%;
+    float: right;
+    box-shadow: 0 0 5px #668fff;
+}
+
+h2 {
+    margin: 20px 0px;
+    color: #668fff;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#question {
+    padding: 20px;
+    background: #fafafa;
+    box-shadow: 0 0 5px #668fff;
+}
+
+.right {
+    display: inline-block;
+    width: 48%;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.left {
+    display: inline-block;
+    width: 50%;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.footer {
+    height: 60px;
+    background: #fafafa;
+    box-shadow: 0 0 5px #668fff;
+    font-family: sans-serif;
+    padding: 0px 30px;
+}
+
+
+.footer a{
+    line-height: 60px;
+    margin: 10px;
+    color: #668fff;
+    text-decoration: underline;
+}
+
+.footer span {
+    line-height: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background: rgba(250, 250, 250, 0.9);
+    padding: 30px;
+    font-family: sans-serif;
+    margin: 0 0 20px;
+}
+
+.content h1 {
+    color: #668fff
+}
+
+.wrap {
+    padding: 80px 0 20px 0;
+}
+
+p {
+    margin: 10px;
+}
+
+/*slider*/
+#slider {
+    height: 500px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px #668fff;
+}
+
+#tringle-r {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 5px solid transparent;
+    transition: border 1s;
+}
+
+#tringle-l {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 5px solid transparent;
+    transition: border 1s;
+}
+
+#tringle-r:hover {
+    border-left: 20px solid #009dff;
+    transition: border 1s;
+}
+
+#tringle-l:hover {
+    border-right: 20px solid #009dff;
+    transition: border 1s;
+}
+
+.it {
+    width: 25%;
+    height: 60px;
+    display: inline-block;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+
+.it:hover {
+    box-shadow: 0 0 15px #009dff;
+    transition: box-shadow 1s;
+}
+
+#slText {
+    display: inline-block;
+    margin: 25px 25px 0px 50%;
+    padding: 25px;
+    height: 75%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.66);
+    overflow-y: scroll;
+}
+
+.leftimg {
+    float: left;
+    width: 40%;
+    margin: 15px;
+}
+
+.rightimg {
+    float: right;
+    width: 200px;
+    margin: 15px;
+}
+
+.sl-navigation {
+    font-size: 0px;
+}
+
+.control {
+    width: 40%;
+    padding: 0 25px;
+    margin: 0 50%;
+    text-align: center;
+}
+
+.control i{
+    color: #668fff;
+    margin: 0 5px;
+    transition: color 1s;
+}
+
+.control i:hover {
+    text-shadow: 0 0 5px #009dff;
+    transition: color 1s;
+}
+
+@media (min-width: 0px) and (max-width: 668px) {
+    #current {
+        display: none;
+    }
+    
+    .footer {
+        height: 120px;
+    }
+    
+    #slider {
+        height: 250px;
+    }
+}
+.content ul li{
+    margin: 0 30px;
+}
+
+@media (min-width: 1523px) {
+    .leftimg {
+    float: left;
+    width: 350px;
+    margin: 15px;
+}
+}
